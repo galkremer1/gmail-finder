@@ -1,7 +1,7 @@
 #gmail-finder
 ##Synopsis
 
-At the top of the file there should be a short introduction and/ or overview that explains what the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+In this project I have used google gmail API in order to search for a string in the user Gmail's inbox.
 
 ##Code Example
 
@@ -17,7 +17,8 @@ Provide code examples and explanations of how to get the project.
 
 ##API Reference
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+This project is using google's Gmail api that can be found here:
+<a href="https://developers.google.com/gmail/api/quickstart/python">test</a>
 
 ##Tests
 

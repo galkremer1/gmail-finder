@@ -17,8 +17,8 @@ Provide code examples and explanations of how to get the project.
 
 ##API Reference
 
-This project is using google's Gmail api that can be found here:
-<a href="https://developers.google.com/gmail/api/quickstart/python">test</a>
+This project is using google's Gmail api that can be found 
+<a href="https://developers.google.com/gmail/api/quickstart/python">here.</a>
 
 ##Tests
 

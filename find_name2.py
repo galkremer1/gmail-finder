@@ -50,6 +50,16 @@ def get_credentials():
 def main():
 
 
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-v", "--verbose", help="increase output verbosity",
+                    action="store_true")
+    args = parser.parse_args()
+    if args.verbose:
+        print "verbosity turned on"
+    else:
+        print args.verbose
+
     credentials = get_credentials()
     service = build('gmail', 'v1', http=credentials.authorize(Http()))
 

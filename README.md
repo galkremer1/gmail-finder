@@ -19,6 +19,7 @@ $ pip install --upgrade google-api-python-client
 ```
 
 You will need to enable the [Gmail API](https://developers.google.com/gmail/api/quickstart/python#step_1_enable_the_api_name)
+Follow the provided steps as described and make sure to include the client_secret.json at the same folder.
 
 ## Code Example
 ```sh

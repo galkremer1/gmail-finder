@@ -1,33 +1,38 @@
-#gmail-finder
-##Synopsis
+# gmail-finder
+> Search your Google Inbox for messages containing a string
 
-In this project I have used google gmail API in order to search for a string in the user Gmail's inbox.
+## Overview
 
-##Code Example
+This project uses google gmail API in order to search for a string in the user Gmail's inbox.
+You will either enter a string through cli arguments or be prompted one.
 
-Show what the library does as concisely as possible, developers should be able to figure out how your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+This program will then tell you how many messages (if any) contain your given string.
 
-##Motivation
+## Installation
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain why the project exists.
+```sh
+# Clone this repository
+$ git clone https://github.com/galkremer1/gmail-finder.git
 
-##Installation
+# Install python sdk
+$ pip install --upgrade google-api-python-client
+```
 
-Provide code examples and explanations of how to get the project.
+You will need to enable the [Gmail API](https://developers.google.com/gmail/api/quickstart/python#step_1_enable_the_api_name)
 
-##API Reference
+## Code Example
+```sh
+$ python find_name.py
+# You will be prompted for a query string
 
-This project is using google's Gmail api that can be found 
-<a href="https://developers.google.com/gmail/api/quickstart/python">here.</a>
+$ python find_name.py --text string
+# Search you inbox for a string
+```
 
-##Tests
+## API Reference
 
-Describe and show how to run the tests with code examples.
+[Google's Gmail API](https://developers.google.com/gmail/api/quickstart/python).
 
-##Contributors
+## License
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
-
-##License
-
-A short snippet describing the license (MIT, Apache, etc.)
+MIT License
